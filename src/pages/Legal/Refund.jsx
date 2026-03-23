@@ -13,9 +13,9 @@ export const Refund = () => {
       <Section id="refund-policy">
         <div className="container">
           <Link to="/" style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>&larr; Back to Home</Link>
-          <LegalLayout title="Refund, Cancellation & Chargeback Policy" lastUpdated="March 19, 2026">
+          <LegalLayout title="Refund, Cancellation & Chargeback Policy" lastUpdated="March 23, 2026">
             <LegalSection index={1} title="Nature of Bespoke Digital Services">
-              <p>1.1. <strong>WebForge LTD</strong> provides high-value professional engineering, architectural consulting, and custom UI/UX design. All Services provided are non-tangible, bespoke "digital goods" or "labor-based services" which cannot be returned or resold.</p>
+              <p>1.1. <strong>Webforge LTD</strong> provides high-value professional engineering, architectural consulting, and custom UI/UX design. All Services provided are non-tangible, bespoke "digital goods" or "labor-based services" which cannot be returned or resold.</p>
               <p>1.2. Consequently, once work has been booked or initiated, we maintain a strict <strong>No-Refund Policy</strong> as defined in this document.</p>
             </LegalSection>
 
@@ -30,7 +30,7 @@ export const Refund = () => {
             </LegalSection>
 
             <LegalSection index={4} title="Exceptions and Partial Refunds">
-              <p>4.1. <strong>Non-Commencement:</strong> If WebForge LTD terminates the project before any professional labor has been expended, the Client may be eligible for a full refund (minus any Stripe processing fees which are retained by Stripe Inc).</p>
+              <p>4.1. <strong>Non-Commencement:</strong> If Webforge LTD terminates the project before any professional labor has been expended, the Client may be eligible for a full refund (minus any Stripe processing fees which are retained by Stripe Inc).</p>
               <p>4.2. <strong>Discretionary Refunds:</strong> Any partial refund issued in exceptional circumstances is granted solely at the absolute discretion of the Provider and does not constitute a legal admission of liability.</p>
             </LegalSection>
 

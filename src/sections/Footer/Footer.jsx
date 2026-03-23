@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className={styles.brand}>
             <div className={styles.logo}>
               <div className={styles.logoIcon}></div>
-              <span>WebForge LTD</span>
+              <span>Webforge LTD</span>
             </div>
             <p className={styles.description}>
               Premium engineering and conversion-optimized design for fast-growing technology companies.
@@ -39,9 +39,9 @@ export const Footer = () => {
               <span className={styles.text}>+44 20 7946 0000</span>
               <div className={styles.addressBlock}>
                 <span className={styles.text}>Registered Office:</span>
-                <span className={styles.text}>71-75 Shelton Street</span>
-                <span className={styles.text}>Covent Garden, London</span>
-                <span className={styles.text}>WC2H 9JQ, United Kingdom</span>
+                <span className={styles.text}>Office 14233, 182-184 High Street North</span>
+                <span className={styles.text}>East Ham, London</span>
+                <span className={styles.text}>E6 2JA, United Kingdom</span>
               </div>
             </div>
           </div>
@@ -50,11 +50,11 @@ export const Footer = () => {
         <div className={styles.bottom}>
           <div className={styles.legalInfo}>
             <p className={styles.copyright}>
-              © {new Date().getFullYear()} WebForge LTD. All rights reserved.
+              © {new Date().getFullYear()} Webforge LTD. All rights reserved.
             </p>
             <div className={styles.companyDetails}>
-              <span>Company No: 12345678</span>
-              <span>VAT No: GB 123 4567 89</span>
+              <span>Company No: 16685746</span>
+              <span>SIC: 62012</span>
             </div>
           </div>
           <div className={styles.badges}>

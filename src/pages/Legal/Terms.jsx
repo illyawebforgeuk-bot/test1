@@ -13,11 +13,11 @@ export const Terms = () => {
       <Section id="terms-of-service">
         <div className="container">
           <Link to="/" style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>&larr; Back to Home</Link>
-          <LegalLayout title="Terms & Conditions of Service" lastUpdated="March 19, 2026">
+          <LegalLayout title="Terms & Conditions of Service" lastUpdated="March 23, 2026">
             <LegalSection index={1} title="Interpretation and Definitions">
               <p>1.1. In these Terms and Conditions ("the Agreement"), the following expressions shall have the following meanings:</p>
               <ul>
-                <li><strong>"The Provider"</strong> refers to WebForge LTD, a company registered in England and Wales (Company No: 12345678).</li>
+                <li><strong>"The Provider"</strong> refers to Webforge LTD, a company registered in England and Wales (Company No: 16685746).</li>
                 <li><strong>"The Client"</strong> refers to any individual, firm, or corporate entity engaging the services of the Provider.</li>
                 <li><strong>"The Services"</strong> refers to the web development, UI/UX design, technical architecture, and consulting services provided.</li>
                 <li><strong>"The Deliverables"</strong> refers to the final source code, design assets, and documentation produced by the Provider for the Client.</li>

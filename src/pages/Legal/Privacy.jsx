@@ -13,9 +13,9 @@ export const Privacy = () => {
       <Section id="privacy-policy">
         <div className="container">
           <Link to="/" style={{ color: 'var(--text-muted)', fontSize: '0.875rem' }}>&larr; Back to Home</Link>
-          <LegalLayout title="Privacy & Data Protection Policy" lastUpdated="March 19, 2026">
+          <LegalLayout title="Privacy & Data Protection Policy" lastUpdated="March 23, 2026">
             <LegalSection index={1} title="Data Controller Identification">
-              <p>1.1. <strong>WebForge LTD</strong>, a company registered in England and Wales (Company No: 12345678), acts as the <strong>"Data Controller"</strong> for any personal data processed under this Privacy Policy. For any data protection inquiries, contact our Data Protection Officer at privacy@webforgeltd.co.uk.</p>
+              <p>1.1. <strong>Webforge LTD</strong>, a company registered in England and Wales (Company No: 16685746), acts as the <strong>"Data Controller"</strong> for any personal data processed under this Privacy Policy. For any data protection inquiries, contact our Data Protection Officer at privacy@webforgeltd.co.uk.</p>
             </LegalSection>
 
             <LegalSection index={2} title="Scope and Applicability">
@@ -31,7 +31,7 @@ export const Privacy = () => {
             </LegalSection>
 
             <LegalSection index={5} title="Financial Data and Stripe Integration">
-              <p>5.1. <strong>Stripe Processing:</strong> All payments are processed via Stripe Inc. WebForge LTD does not store full credit card numbers or raw bank credentials on our infrastructure. Stripe acts as an independent Data Controller for the financial processing aspect. We only process tokenised confirmation of payments made.</p>
+              <p>5.1. <strong>Stripe Processing:</strong> All payments are processed via Stripe Inc. Webforge LTD does not store full credit card numbers or raw bank credentials on our infrastructure. Stripe acts as an independent Data Controller for the financial processing aspect. We only process tokenised confirmation of payments made.</p>
             </LegalSection>
 
             <LegalSection index={6} title="Lawful Basis for Processing">
