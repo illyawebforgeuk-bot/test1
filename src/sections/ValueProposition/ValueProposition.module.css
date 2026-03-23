@@ -1,0 +1,51 @@
+.header {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto var(--space-16);
+}
+
+.title {
+  margin-bottom: var(--space-4);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-6);
+}
+
+/* Ensure the cards look slightly different here if needed, 
+   but we mainly rely on Card.css */
+.card {
+  height: 100%;
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: rgba(59, 130, 246, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-4);
+}
+
+.icon {
+  color: var(--accent-blue);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-2);
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}

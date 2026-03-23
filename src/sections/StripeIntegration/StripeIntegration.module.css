@@ -1,0 +1,197 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-12);
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6366f1; /* Stripe blurple approximation */
+  background-color: rgba(99, 102, 241, 0.1);
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-6);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-4);
+  line-height: 1.2;
+}
+
+.description {
+  color: var(--text-secondary);
+  font-size: 1.125rem;
+  margin-bottom: var(--space-8);
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.feature {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.iconWrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon {
+  color: #6366f1;
+}
+
+.featureTitle {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-1);
+}
+
+.featureDesc {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+/* Mockup CSS */
+.visual {
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutMockup {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 0 30px 60px -30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  color: #1a1f36;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.mockupHeader {
+  padding: var(--space-6);
+  background-color: #f7fafc;
+  border-bottom: 1px solid #e2e8f0;
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.mockupHeader::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-color: #6366f1;
+  border-radius: 50%;
+}
+
+.mockupBody {
+  padding: var(--space-6);
+}
+
+.mockupRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-6);
+  color: #4a5568;
+  font-size: 0.9375rem;
+}
+
+.mockupTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.mockupInput, .inputHalf {
+  height: 44px;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--space-3);
+  color: #a0aec0;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+}
+
+.mockupInput {
+  margin-bottom: var(--space-3);
+}
+
+.mockupInputSmall {
+  display: flex;
+  gap: var(--space-3);
+  margin-bottom: var(--space-8);
+}
+
+.inputHalf {
+  flex: 1;
+}
+
+.mockupButton {
+  height: 44px;
+  background-color: #6366f1;
+  color: #ffffff;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.mockupFooter {
+  padding: var(--space-4) var(--space-6);
+  font-size: 0.6875rem;
+  color: #718096;
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+  background-color: #f7fafc;
+}
+
+.mockupFooter a {
+  color: #4a5568;
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  
+  .badge {
+    margin: 0 auto var(--space-6);
+  }
+
+  .features {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

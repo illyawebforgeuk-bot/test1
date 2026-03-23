@@ -1,0 +1,86 @@
+.header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-20);
+}
+
+.title {
+  margin-bottom: var(--space-6);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: flex;
+  gap: var(--space-12);
+  min-height: 120px;
+}
+
+.visualWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.iconCircle {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  z-index: 2;
+}
+
+.connector {
+  flex: 1;
+  width: 1px;
+  background-color: var(--border-color);
+  margin: var(--space-2) 0;
+}
+
+.content {
+  padding-bottom: var(--space-16);
+}
+
+.stepTitle {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  letter-spacing: -0.01em;
+}
+
+.stepIndex {
+  color: var(--accent-blue);
+  font-family: monospace;
+  font-size: 0.9375rem;
+  opacity: 0.7;
+}
+
+.stepDescription {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .step {
+    gap: var(--space-6);
+  }
+}

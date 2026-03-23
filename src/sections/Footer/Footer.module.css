@@ -1,0 +1,145 @@
+.footer {
+  background-color: #050505;
+  border-top: 1px solid var(--border-color);
+  padding: var(--space-16) 0 var(--space-8);
+  font-family: var(--font-family);
+  position: relative;
+  z-index: 10;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-16);
+  flex-wrap: wrap;
+  gap: var(--space-12);
+}
+
+.brand {
+  max-width: 300px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: var(--space-4);
+  color: var(--text-primary);
+}
+
+.logoIcon {
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, var(--accent-blue) 0%, #ffffff 100%);
+  border-radius: var(--radius-sm);
+}
+
+.description {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.linksWrapper {
+  display: flex;
+  gap: var(--space-16);
+  flex-wrap: wrap;
+}
+
+.linkColumn {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.columnTitle {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.link {
+  color: var(--text-secondary);
+  font-size: 0.9375rem;
+  transition: color var(--transition-fast);
+}
+
+.link:hover {
+  color: var(--text-primary);
+}
+
+.text {
+  color: var(--text-secondary);
+  font-size: 0.8125rem;
+  display: block;
+}
+
+.addressBlock {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: var(--space-12);
+  border-top: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.legalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.companyDetails {
+  display: flex;
+  gap: var(--space-4);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.copyright {
+  color: var(--text-muted);
+  font-size: 0.8125rem;
+}
+
+.badges {
+  display: flex;
+  gap: var(--space-4);
+}
+
+.stripeBadge {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding: 6px 14px;
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.stripeBadge b, .stripeBadge strong {
+  color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+  .linksWrapper {
+    gap: var(--space-8);
+    width: 100%;
+    justify-content: space-between;
+  }
+}
