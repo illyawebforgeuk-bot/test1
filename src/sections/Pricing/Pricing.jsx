@@ -20,7 +20,7 @@ const plans = [
     ],
     cta: 'Book Now',
     variant: 'secondary',
-    link: '#' // To be updated with Stripe link
+    link: 'https://buy.stripe.com/9B6dRa93Xdjcatsb8M7IY00' // Updated with Stripe link
   },
   {
     name: 'Technical Architecture',
