@@ -8,8 +8,8 @@ import { motion } from 'framer-motion';
 
 const plans = [
   {
-    name: 'Strategy Consulation',
-    price: '$250',
+    name: 'Strategy Consultation',
+    price: '$100',
     period: 'one-time',
     description: 'Perfect for founders who need technical architecture direction and scope estimation.',
     features: [
@@ -19,7 +19,24 @@ const plans = [
       'Credited toward full project'
     ],
     cta: 'Book Now',
-    variant: 'secondary'
+    variant: 'secondary',
+    link: '#' // To be updated with Stripe link
+  },
+  {
+    name: 'Technical Architecture',
+    price: '$250',
+    period: 'one-time',
+    description: 'Deep technical blueprint for complex SaaS and custom software products.',
+    features: [
+      'Full Database Schema design',
+      'API & Integration Mapping',
+      'Infrastructure & Scalability docs',
+      'Security & Auth audit',
+      'Priority support access'
+    ],
+    cta: 'Get Blueprint',
+    variant: 'secondary',
+    link: '#' // To be updated with Stripe link
   },
   {
     name: 'Landing Page',
@@ -35,7 +52,8 @@ const plans = [
     ],
     cta: 'Get Quote',
     variant: 'primary',
-    popular: true
+    popular: true,
+    link: '#' // To be updated with Stripe link
   },
   {
     name: 'Web Application',
@@ -50,7 +68,8 @@ const plans = [
       '30 days post-launch support'
     ],
     cta: 'Discuss Project',
-    variant: 'secondary'
+    variant: 'secondary',
+    link: '#' // To be updated with Stripe link
   }
 ];
 
@@ -95,7 +114,14 @@ export const Pricing = () => {
                 ))}
               </div>
               
-              <Button variant={plan.variant} className={styles.button}>
+              <Button 
+                variant={plan.variant} 
+                className={styles.button}
+                as="a"
+                href={plan.link}
+                target={plan.link === '#' ? undefined : '_blank'}
+                rel="noopener noreferrer"
+              >
                 {plan.cta}
               </Button>
             </Card>

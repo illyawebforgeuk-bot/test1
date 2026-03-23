@@ -19,7 +19,7 @@ export const Refund = () => {
               <p>1.2. Consequently, once work has been booked or initiated, we maintain a strict <strong>No-Refund Policy</strong> as defined in this document.</p>
             </LegalSection>
 
-            <LegalSection index={2} title="Consultation and Discovery Fee ($250)">
+            <LegalSection index={2} title="Consultation and Discovery Fee ($100)">
               <p>2.1. The initial "Strategy & Discovery" consultation fee is <strong>strictly non-refundable</strong>.</p>
               <p>2.2. This fee compensates the Provider for (a) the immediate allocation of senior engineering bandwidth, (b) pre-call project analysis, and (c) the delivery of a bespoke technical roadmap. Absence or late cancellation (within 24 hours of the call) results in the permanent forfeiture of this fee.</p>
             </LegalSection>
