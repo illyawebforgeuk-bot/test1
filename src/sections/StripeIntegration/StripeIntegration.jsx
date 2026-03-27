@@ -34,7 +34,7 @@ export const StripeIntegration = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <div className={styles.badge}>WebForge x Stripe</div>
+          <div className={styles.badge}>Webforge x Stripe</div>
           <h2 className={styles.title}>Seamless payments powered by Stripe</h2>
           <p className={styles.description}>
             We utilize Stripe's world-class infrastructure to handle all financial transactions. 
@@ -68,22 +68,22 @@ export const StripeIntegration = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <div className={styles.checkoutMockup}>
-            <div className={styles.mockupHeader}>Pay WebForge LTD</div>
+            <div className={styles.mockupHeader}>Pay Webforge LTD</div>
             <div className={styles.mockupBody}>
               <div className={styles.mockupRow}>
-                <span>Landing Page Development</span>
-                <span>$1,500.00</span>
+                <span>Web Development Service</span>
+                <span>€250.00</span>
               </div>
               <div className={styles.mockupTotal}>
                 <span>Total due</span>
-                <span>$1,500.00</span>
+                <span>€250.00</span>
               </div>
               <div className={styles.mockupInput}>card number</div>
               <div className={styles.mockupInputSmall}>
                 <div className={styles.inputHalf}>MM / YY</div>
                 <div className={styles.inputHalf}>CVC</div>
               </div>
-              <div className={styles.mockupButton}>Pay $1,500.00</div>
+              <div className={styles.mockupButton}>Pay €250.00</div>
             </div>
             <div className={styles.mockupFooter}>
               By paying, you agree to our <Link to="/terms">Terms</Link> and <Link to="/refund">Refund Policy</Link>.

@@ -30,8 +30,8 @@ export const Terms = () => {
             </LegalSection>
 
             <LegalSection index={3} title="Professional Fees and Payment Structure">
-              <p>3.1. All fees are quoted in GBP (£) or USD ($) as specified in the SOW. VAT will be applied at the prevailing UK rate where applicable.</p>
-              <p>3.2. <strong>Consultation Strategy Fee:</strong> The initial $100 discovery fee is a non-refundable professional consultation fee. This fee reserves a dedicated engineering time-slot and covers the cost of pre-project technical research.</p>
+              <p>3.1. All fees are quoted in Euro (€) or GBP (£) as specified in the SOW. VAT will be applied at the prevailing UK rate where applicable.</p>
+              <p>3.2. <strong>Consultation Strategy Fee:</strong> The initial €100 discovery fee is a non-refundable professional consultation fee. This fee reserves a dedicated engineering time-slot and covers the cost of pre-project technical research.</p>
               <p>3.3. <strong>Stripe Payments:</strong> All digital transactions are processed through Stripe Inc. By engaging our services, the Client agrees to be bound by the Stripe Services Agreement and facilitates the Provider to securely tokenise their payment methods for milestone billing.</p>
             </LegalSection>
 

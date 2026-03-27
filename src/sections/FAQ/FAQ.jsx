@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: "What exactly is included in the $250 Discovery Call?",
+    question: "What exactly is included in the €100 Strategy Consultation?",
     answer: "You get a 60-minute technical session with a senior engineer. We review your product requirements, current stack (if any), and provide a concrete architecture plan. You'll leave with a clear roadmap and an exact price estimate. This cost is credited toward your project if you choose to move forward."
   },
   {

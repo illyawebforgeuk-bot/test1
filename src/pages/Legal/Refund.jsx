@@ -19,8 +19,8 @@ export const Refund = () => {
               <p>1.2. Consequently, once work has been booked or initiated, we maintain a strict <strong>No-Refund Policy</strong> as defined in this document.</p>
             </LegalSection>
 
-            <LegalSection index={2} title="Consultation and Discovery Fee ($100)">
-              <p>2.1. The initial "Strategy & Discovery" consultation fee is <strong>strictly non-refundable</strong>.</p>
+            <LegalSection index={2} title="Consultation and Discovery Fee (€100)">
+              <p>2.1. The initial "Strategy & Discovery" consultation fee (€100) is <strong>strictly non-refundable</strong>.</p>
               <p>2.2. This fee compensates the Provider for (a) the immediate allocation of senior engineering bandwidth, (b) pre-call project analysis, and (c) the delivery of a bespoke technical roadmap. Absence or late cancellation (within 24 hours of the call) results in the permanent forfeiture of this fee.</p>
             </LegalSection>
 
@@ -46,7 +46,7 @@ export const Refund = () => {
             <LegalSection index={7} title="Disputes and Chargebacks (Stripe Compliance)">
               <p>7.1. We prioritize amicable dispute resolution. Before initiating a credit card chargeback or Stripe dispute, the Client <strong>must</strong> first contact the Provider in writing to attempt a resolution.</p>
               <p>7.2. <strong>False Chargebacks:</strong> Any bad-faith or "friendly fraud" chargeback initiated by the Client will be defended with full evidentiary logs including signed SOWs, IP access logs, GitHub commit timestamps, and communication records.</p>
-              <p>7.3. <strong>Chargeback Penalties:</strong> If a chargeback is subsequently decided in favor of the Provider, the Client shall be liable for an administrative penalty of <strong>£100 ($125)</strong> per dispute to cover Stripe’s penalty fees and internal labor costs.</p>
+              <p>7.3. <strong>Chargeback Penalties:</strong> If a chargeback is subsequently decided in favor of the Provider, the Client shall be liable for an administrative penalty of <strong>€100</strong> per dispute to cover Stripe’s penalty fees and internal labor costs.</p>
             </LegalSection>
 
             <LegalSection index={8} title="Project Delays and Refunds">

@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const plans = [
   {
     name: 'Strategy Consultation',
-    price: '$100',
+    price: '€100',
     period: 'one-time',
     description: 'Perfect for founders who need technical architecture direction and scope estimation.',
     features: [
@@ -20,44 +20,44 @@ const plans = [
     ],
     cta: 'Book Now',
     variant: 'secondary',
-    link: 'https://buy.stripe.com/9B6dRa93Xdjcatsb8M7IY00' // Updated with Stripe link
+    link: 'https://buy.stripe.com/9B6dRa93Xdjcatsb8M7IY00'
   },
   {
-    name: 'Technical Architecture',
-    price: '$250',
+    name: 'Custom IT Solutions',
+    price: '€200',
     period: 'one-time',
-    description: 'Deep technical blueprint for complex SaaS and custom software products.',
+    description: 'Bespoke engineering for growing companies. From technical problem-solving to custom software integrations, we provide the technical logic and architecture your business needs to scale effectively.',
     features: [
-      'Full Database Schema design',
-      'API & Integration Mapping',
-      'Infrastructure & Scalability docs',
-      'Security & Auth audit',
-      'Priority support access'
+      'Custom script & API development',
+      'Technical system integration',
+      'Database migration assistance',
+      'Specialized architectural consulting',
+      'Dedicated developer support'
     ],
-    cta: 'Get Blueprint',
+    cta: 'Order Service',
     variant: 'secondary',
-    link: '#' // To be updated with Stripe link
+    link: 'https://buy.stripe.com/8x24gA5RLbb40SSgt67IY01'
   },
   {
-    name: 'Landing Page',
-    price: '$1,500',
-    period: 'starting at',
-    description: 'High-converting pages optimized for SaaS and high-ticket service sales.',
+    name: 'Web Development Service',
+    price: '€250',
+    period: 'one-time',
+    description: 'Professional digital presence for founders and engineering teams. We build fast, high-performance websites and landing pages that drive leads and conversions with premium design and clean code.',
     features: [
-      'Custom premium UI/UX design',
-      'React/Vite development',
-      'Stripe Integration Ready',
-      'Performance constraints met',
-      'SEO & Mobile optimization'
+      'Custom React/Vite development',
+      'Conversion-optimized UI/UX',
+      'Global CDN & Static hosting',
+      '100/100 Lighthouse performance',
+      'SEO & Analytics integration'
     ],
-    cta: 'Get Quote',
+    cta: 'Start Project',
     variant: 'primary',
     popular: true,
-    link: '#' // To be updated with Stripe link
+    link: 'https://buy.stripe.com/3cI5kEeoh0wqfNM7WA7IY02'
   },
   {
     name: 'Web Application',
-    price: '$5,000',
+    price: '€5,000',
     period: 'starting at',
     description: 'Complex, scalable applications with authentication, databases, and heavy logic.',
     features: [
@@ -69,7 +69,7 @@ const plans = [
     ],
     cta: 'Discuss Project',
     variant: 'secondary',
-    link: '#' // To be updated with Stripe link
+    link: '#' // To be updated
   }
 ];
 

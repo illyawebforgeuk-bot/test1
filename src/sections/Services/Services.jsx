@@ -8,29 +8,29 @@ import styles from './Services.module.css';
 const SERVICES_DATA = [
   {
     Icon: Rocket,
-    title: 'High-Impact Landing',
-    audience: 'Early Stage & SaaS',
-    description: 'Precision-engineered landing pages designed for conversion. We combine psychological triggers with top-tier performance metrics.',
-    price: '$1,500',
-    cta: 'Discuss Project',
-    popular: false
+    title: 'Web Development',
+    audience: 'Founders & Teams',
+    description: 'Professional digital presence and bespoke web development services. We build fast, high-performance websites optimized for growth.',
+    price: '€250',
+    cta: 'Start Project',
+    popular: true
   },
   {
     Icon: Layers,
-    title: 'UI/UX Transformation',
+    title: 'Custom IT Solutions',
     audience: 'Scale-ups & SMBs',
-    description: 'Complete overhaul of your current platform. We resolve friction points to improve user retention and lifetime value.',
-    price: '$5,000',
-    cta: 'Book Discovery',
-    popular: true
+    description: 'Tailored technical logic and architecture your business needs to scale. We solve complex problems with clean, efficient code.',
+    price: '€200',
+    cta: 'Order Service',
+    popular: false
   },
   {
     Icon: Cpu,
     title: 'Complex Web Apps',
     audience: 'Ambitious Founders',
     description: 'Architecting your core product from scratch. Scalable React/Next.js systems integrated with complex backend logic.',
-    price: 'Custom Block',
-    cta: 'Get Technical Quote',
+    price: '€5,000',
+    cta: 'Discuss Project',
     popular: false
   }
 ];
