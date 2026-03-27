@@ -20,7 +20,7 @@ export const Footer = () => {
           <div className={styles.linksWrapper}>
             <div className={styles.linkColumn}>
               <h4 className={styles.columnTitle}>Solutions</h4>
-              <a href="#services" className={styles.link}>Services</a>
+              <a href="#pricing" className={styles.link}>Services</a>
               <a href="#process" className={styles.link}>Architecture</a>
               <a href="#pricing" className={styles.link}>Investment</a>
               <a href="#case-studies" className={styles.link}>Portfolio</a>
